@@ -1,3 +1,9 @@
 [submodule "deps/raylib"]
 	path = deps/raylib
 	url = git@github.com:raysan5/raylib.git
+[submodule "deps/imgui/imgui"]
+	path = deps/imgui/imgui
+	url = git@github.com:ocornut/imgui.git
+[submodule "deps/rlImGui"]
+	path = deps/rlImGui
+	url = git@github.com:raylib-extras/rlImGui.git
