@@ -29,8 +29,10 @@ set(ADDITIONAL_DIRS)
 set(RAYLIB_DIR ${PROJECT_SOURCE_DIR}/deps/raylib)
 # Get the path to imgui
 set(IMGUI_DIR ${PROJECT_SOURCE_DIR}/deps/imgui)
-# Get the path ot rlImGui
+# Get the path to rlImGui
 set(RLIMGUI_DIR ${PROJECT_SOURCE_DIR}/deps/rlImGui)
+# Get thr path to the source
+set(SOURCE_DIR ${PROJECT_SOURCE_DIR}/source)
 
 
 # ---------------------------------------------------------------------
@@ -52,6 +54,7 @@ list(APPEND SOURCE_FILES ${RLIMGUI_HEADER_FILES})
 # ---------------------------------------------------------------------
 # Set the additional include directories
 set(INCLUDE_DIRS
+    ${SOURCE_DIR}
     ${RLIMGUI_DIR}
     )
 
